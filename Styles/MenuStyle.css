@@ -19,7 +19,9 @@ body{
   min-height: 100vh;
   background: linear-gradient( 135deg , #802d2d 0%, #750000 100%);
 }
-a{
+button a{ 
+    height: 100%;
+    width: 100%;
     text-decoration: none;
 }
 .Menu-Container{
