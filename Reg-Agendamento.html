@@ -35,41 +35,51 @@
     <main>
 
         <form class="Formulario glass-card">
-            <h1>Cadastro de Veículo</h1>
+            <h1>Cadastro de Agendamento</h1>
             <div class="input-group">
-                <label for="nome">Modelo</label>
+                <label for="DataAgendamento">Data Do Agendamento</label>
+                <div class="input-item">
+                    <i class="fa-solid fa-calendar"></i>
+                    <input id="DataAgendamento" name="DataAgendamento" type="datetime" placeholder="Digite a data do agendamento" />
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="Servico"> Servico</label>
+                <div class="input-item">
+                    <i class="fa-solid fa-bars"></i>
+                    <input id="Servico" name="Servico" type="text" placeholder="Digite o serviço do agendamento" />
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="preco">Preco</label>
+                <div class="input-item">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <input id="preco" name="preco" type="number" placeholder="Digite o preço do serviço" />
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="nome">Cliente</label>
+                <div class="input-item">
+                    <i class="fa-solid fa-user"></i>
+                    <input id="nome" name="nome" type="text" placeholder="Digite o nome do cliente" />
+                </div>
+            </div>
+
+            
+            <div class="input-group">
+                <label for="veiculo">Veiculo</label>
                 <div class="input-item">
                     <i class="fa-solid fa-car"></i>
-                    <input id="Modelo" name="Modelo" type="text" placeholder="Digite o modelo do veículo" />
-                </div>
-            </div>
-
-            <div class="input-group">
-                <label for="marca">Cor</label>
-                <div class="input-item">
-                    <i class="fa-solid fa-palette"></i>
-                    <input id="marca" name="marca" type="text" placeholder="Digite a cor do veículo" />
-                </div>
-            </div>
-
-            <div class="input-group">
-                <label for="ano">Placa</label>
-                <div class="input-item">
-                    <i class="fa-regular fa-flag"></i>
-                    <input id="ano" name="ano" type="text" placeholder="Digite a placa do veículo" />
-                </div>
-                </div>
-            <div class="input-group">
-                <label for="ano">Marca</label>
-                <div class="input-item">
-                    <i class="fa-solid fa-tag"></i>
-                    <input id="Marca" name="Marca" type="text" placeholder="Digite a marca do veículo" />
+                    <input id="veiculo" name="veiculo" type="text" placeholder="Digite o nome do veículo" />
                 </div>
             </div>
 
 
 
-            <button class="btn"><a href="Listagem-Veiculos.html">Cadastrar</a></button>
+            <button class="btn"><a href="Listagem-Agendamento.html">Cadastrar</a></button>
 
 
         </form> 
